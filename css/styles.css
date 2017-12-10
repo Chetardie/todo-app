@@ -83,7 +83,7 @@ ul.done:not(:empty):before {
     height: 2px;
     width: 30%;
     margin: 23px auto;
-    background: rgb(223,223,223);
+    background: #fff;;
 }
 
 .todo li, .done li {
@@ -98,6 +98,10 @@ ul.done:not(:empty):before {
     line-height: 22px;
     color: rgb(0,88,152);
     
+}
+
+.done {
+    text-decoration: line-through;
 }
 
 .todo li:last-of-type, .done li:last-of-type {
